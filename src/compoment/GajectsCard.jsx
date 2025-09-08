@@ -46,7 +46,7 @@ export default function GajectsCard() {
          
         
       }
-    <div className='grid md:grid-cols-2 lg:grid-cols-4'>
+    <div className='grid md:grid-cols-2 gap-6 lg:grid-cols-3'>
       {
         card.map(card => <Card card={card}></Card>)
       }
